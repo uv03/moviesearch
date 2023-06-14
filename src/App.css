@@ -1,0 +1,85 @@
+body{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+    background-size: 300% 300%;
+  background-image: linear-gradient(-90deg, rgb(8, 8, 8) 0%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 51%, #bdbcbc 100%);
+  -webkit-animation: AnimateBG 15s ease infinite;
+          animation: AnimateBG 15s ease infinite;
+}
+
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.h2{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  height: 40px;
+}
+.name{
+  font-size: large;
+}
+.eror{
+  display: flex;
+  justify-content: center;
+}
+.h3{
+  background-color: #97accc;
+  display: inline;
+  justify-content: center;
+  height: 35px;
+  border-radius: 5px;
+}
+.details{
+  display: flex;
+  justify-content: center;
+  
+}
+.intro{
+  background-color: #d3d6db;
+
+}
+img{
+  border-radius: 5px;
+
+}
+.title{
+  background-color: #97accc;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-header{
+  overflow: hidden;
+}
